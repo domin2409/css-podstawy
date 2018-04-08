@@ -1,18 +1,30 @@
 body {
     background-color: coral
 }
+
 #pierwszy {
     background-color: antiquewhite;
     width: 600px;
-    height 100px;
+    height: 100px;
     margin-bottom: 10px;
+    position: relative;
+    top: 40px;
+    left: 30px;
 }
 
 #drugi {
     background-color: firebrick;
     width: 600px;
     height 100px;
-    position: absolute;
+}
+
+#trzeci {
+    background-color: blue;
+    width: 600px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: fixed;
     top: 40px;
     left: 30px;
+
 }
