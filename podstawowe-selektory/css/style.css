@@ -16,3 +16,10 @@ h1 + p {
 h1 ~ p {
     color: green
 }
+
+ul#lista >li:not(.last) {
+    background: yellow;
+}
+ul#lista >li:nth-child(3) {
+    background-color: blue;
+}
