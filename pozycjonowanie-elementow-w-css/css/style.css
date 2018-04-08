@@ -15,7 +15,7 @@ body {
 #drugi {
     background-color: firebrick;
     width: 600px;
-    height 100px;
+    height: 100px;
 }
 
 #trzeci {
@@ -27,4 +27,20 @@ body {
     top: 40px;
     left: 30px;
 
+}
+
+#pierwszy-prim {
+    background-color: yellow;
+    position: 
+    margin: 10px;
+    bottom: 5px;
+    left: px;
+}
+
+#pierwszy-absolutny {
+    background-color: violet;
+    position: absolute;
+    margin: 10px;
+    bottom: 5px;
+    left: px;
 }
