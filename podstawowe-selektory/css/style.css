@@ -10,5 +10,9 @@ a, span, div {
 ul> a {
     background-color: cadetblue;
 }
-
+h1 + p {
+    color: darkgreen
+}
+h1 ~ p {
+    color: green
 }
